@@ -1,0 +1,94 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 80px 0;}
+/* Main CSS Stop */
+/* === Double Overlay Section CSS Start === */
+.section-bg-1{
+	background-image: url(../img/bg-1.jpg);
+}
+.section-bg-1 {
+  position: relative;
+  z-index: 2;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+	/* overlay work start */
+.section-blue-overlay, .section-black-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 40%;
+  content: "";
+  background: #00abe5;
+  z-index: -1;
+  opacity: 0.7;
+}
+.section-black-overlay {
+  left: auto;
+  right: 0;
+  width: 60%;
+  background: #000;
+  opacity: .5;
+}
+	/* overlay work start */
+.single-service-box {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 35px;
+}
+.single-service-box i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  font-size: 20px;
+}
+body {
+  font-size: 15px;
+  line-height: 1.8;
+}
+.section-padding {
+  padding: 100px 0;
+}
+
+.section-title p:nth-child(1) {
+  font-weight: 600;
+  font-style: italic;
+}
+.section-title h2 {
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+}
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100px;
+  background: #00abe5;
+  opacity: ;
+}
+/* === Double Overlay Section CSS Stop === */
